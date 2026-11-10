@@ -41,3 +41,8 @@ Variables de entorno opcionales: `PORT`, `DB_PATH` (por defecto `data/app.db`), 
 - `src/vistas.js` — pantallas HTML con escape de texto.
 - `public/` — estilos y confirmación al eliminar.
 - `tests/flujo.test.js` — pruebas del flujo completo.
+
+## Despliegue en Render
+
+El archivo `render.yaml` ya trae la configuración. En Render: **New → Blueprint**, elegir este repositorio y confirmar.
+En el plan gratuito el disco es temporal: los datos se pierden al reiniciar o redesplegar.
