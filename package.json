@@ -1,0 +1,15 @@
+{
+  "name": "categorias-login",
+  "version": "1.0.0",
+  "description": "CRUD de categorías con registro y autenticación de usuarios (Node.js + SQLite, sin dependencias externas)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "MIT"
+}
